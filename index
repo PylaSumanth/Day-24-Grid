@@ -1,0 +1,31 @@
+<html>
+<head>
+    <style>
+    .parent{
+        display:grid;
+        gap:2px;
+        Height:300px;
+        /* grid-template-rows:auto auto auto ; */
+        grid-template-columns:auto auto auto;
+        background-color:aquamarine;
+        padding:5px;} 
+        
+    .parent div{
+        background-color: blue;
+        text-align: center;
+        color:white;
+    }
+            
+</style>
+</head>   
+<body>
+    <div class="parent">
+    <div style="grid-column:1/8">Header</div>
+    <div style="grid-row:2/6;grid-column: 1/6;">Menu</div>
+    <div style="grid-row:2/6;">Main</div>
+    <div style="grid-row:2/6;">Right</div>
+    <div style="grid-column:1/8">Footer</div>
+ 
+    </div>
+
+    </body>
